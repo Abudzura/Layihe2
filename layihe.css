@@ -1,0 +1,124 @@
+
+.container {
+    height: auto;
+    padding-top: 0;
+    width: 336px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    position:relative;
+    overflow: hidden;
+}
+
+.todo-header {
+  position: relative;
+  right: -110px;
+}
+
+.todo-body {
+    position: relative;
+    right: 30px;
+    width: 345px;
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.todo-input {
+    position: relative;
+    left: 30px;
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#AddUpdateClick {
+    top: 10px;
+    left: 107px;
+    position: relative;
+    height: 30px;
+    width: 110px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-image: url('./photos/image.png');
+    background-size: cover;
+    background-position: center; 
+}
+
+
+.listik {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.listik h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.list-items {
+    list-style: none;
+    padding: 0;
+}
+
+.list-items li {
+    margin-bottom: 5px;
+}
+
+.headdd{
+    position: absolute;
+    top: 0;
+    left: 0;;
+    width: 100%;
+    height: 50px;
+    background-color: yellow;
+}
+.deleteButton{
+    position: relative;
+    left: 303px;
+    bottom: 18px;
+    cursor: pointer;
+    border: none;
+    background-image: url('/photos/image\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease;
+    background-size: 12px 12px;
+    height: 12px;
+    width: 12px;
+    background-color: transparent;
+}
+.deleteButton:hover {
+    background-image: url('/photos/image\ \(2\).png');
+    background-size: 12px 12px;
+}
+.list-items li {
+    margin-bottom: 5px;
+    word-break: break-all; 
+}
+#sortButton{
+    background-color: transparent;
+    height: 12px;
+    width: 19px;
+    cursor: pointer;
+    position: relative;
+    top: 66px;
+    left: 310px;
+    border: none;
+    background-image: url('/photos/image\ \(4\).png');
+    background-size: cover;
+}
+#sortButton:hover {
+    height: 12px;
+    width: 19px;
+    background-image: url('/photos/image\ \(6\).png');
+}
